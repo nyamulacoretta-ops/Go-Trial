@@ -13,18 +13,16 @@ type Corie struct {
 	phoneNumber int
 	address     string
 	homeTown    home
-	gender bool
+	gender      bool
 }
 type home struct {
 	district string
 	ta       string
-	village string
-	country string
+	village  string
+	country  string
 }
 
 var myDetails Corie
-myDetails.district = "Mchinji"
-
 
 func test(n messageToSend) {
 	fmt.Printf("Sending message from: '%v'\n message: %s\n", n.phoneNumber, n.message)
