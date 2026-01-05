@@ -38,7 +38,7 @@ func main() {
 
 	herAge := 28.0
 	herAgeInt := int(herAge)
-	var herName = "Coretta Nyamula"
+	var herName = "Coretta Omega Nyamula"
 	const name = "Corie"
 	const openrate = 14.8
 	//formats tis into a string
@@ -56,6 +56,7 @@ func main() {
 		message:     "I really hate you"})
 
 	fmt.Println("starting Textio server")
+	fmt.Println("---------------")
 	fmt.Println(herName, "is ", herAgeInt)
 	fmt.Println(msg)
 	fmt.Println(statement)
