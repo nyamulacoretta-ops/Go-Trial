@@ -57,6 +57,8 @@ func main() {
 
 	fmt.Println("starting Textio server")
 	fmt.Println("---------------")
+	fmt.Println("Just wanted to type shit")
+
 	fmt.Println(herName, "is ", herAgeInt)
 	fmt.Println(msg)
 	fmt.Println(statement)
